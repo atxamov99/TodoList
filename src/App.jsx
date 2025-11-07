@@ -14,7 +14,7 @@ function init(initial) {
       return JSON.parse(raw)
     }
   } catch {
-    // ignore parse errors
+    return alert("error")
   }
   return initial
 }
